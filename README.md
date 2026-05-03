@@ -100,7 +100,7 @@ qemu-system-i386 -cdrom os.iso
 
 ## 🎯 Purpose
 
-The purpose of FidaOS was not to build a production-ready system, but to gain a practical understanding of how operating systems work internally by building one from scratch.
+The purpose of FidaOS was to obtain a practical understanding of how operating systems work internally by building one from scratch.
 
 ---
 
