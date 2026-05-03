@@ -17,7 +17,7 @@ This project was developed to explore how operating systems work at a low level 
 
 FidaOS is designed as a minimal but functional system that demonstrates how a computer can boot, take input, process commands, and manage data. The system includes a custom kernel, basic drivers, a command-line shell, and a small file system.
 
-Rather than focusing on complexity, the goal was to understand the fundamentals—how input is handled, how memory is used, and how different parts of an operating system interact with each other.
+Rather than focusing on complexity, the goal was to apply the fundamentals—how input is handled, how memory is used, and how different parts of an operating system interact with each other.
 
 ---
 
