@@ -1,101 +1,106 @@
 # 🖥️ FidaOS
 
-A simple command-line operating system built from scratch using C and x86 Assembly.
-
----
-
-## 🚀 Overview
-
-FidaOS is a minimal operating system developed to understand how operating systems work internally. It includes a custom kernel, basic drivers, a shell, a file system, and simple programs.
-
----
-
-## ✨ Features
-
-- Custom kernel
-- Keyboard input (Shift + Caps Lock support)
-- Command-line interface
-- File system:
-  - touch → create file
-  - rm → delete file
-  - ls → list files
-  - cat → view file
-- Text editor:
-  - edit → overwrite
-  - append → add to end
-  - prepend → add to beginning
-- Programs:
-  - snake
-  - pong
-- Blinking cursor
-
----
-
-## 🧠 What I Learned
-
-- Basics of operating systems
-- Writing low-level C code
-- Handling keyboard input using scan codes
-- Designing a simple file system
-- Building a command-line shell
-- Debugging multi-file C projects
-
----
-
-## 📂 Structure
-
-kernel/
-drivers/
-programs/
-include/
-fs.c
-boot.asm
-linker.ld
-grub/
-
----
-
-## 🖥️ Commands
-
-help  
-clear  
-ls  
-run <program>  
-touch <file>  
-rm <file>  
-edit <file>  
-append <file>  
-prepend <file>  
-cat <file>  
-
----
-
-## 🛠️ Tech
-
-C  
-x86 Assembly  
-GRUB  
-QEMU  
-
----
-
-## ▶️ Run
-
-Build and run using your existing commands:
-
-qemu-system-i386 -cdrom os.iso
-
----
-
-## 🎯 Goal
-
-To learn how operating systems work by building one from scratch.
+FidaOS is a simple command-line operating system built from scratch using C and x86 Assembly.  
+This project was developed to explore how operating systems work at a low level by implementing core components manually, without relying on existing OS frameworks.
 
 ---
 
 ## 📸 Demo
 
-(Add your video link later)
+(A demo video will be added here)
+
+---
+
+## 🚀 Overview
+
+FidaOS is designed as a minimal but functional system that demonstrates how a computer can boot, take input, process commands, and manage data. The system includes a custom kernel, basic drivers, a command-line shell, and a small file system.
+
+Rather than focusing on complexity, the goal was to understand the fundamentals—how input is handled, how memory is used, and how different parts of an operating system interact with each other.
+
+---
+
+## ✨ Features
+
+FidaOS provides a working command-line environment where users can create, edit, and manage files. It also includes simple built-in programs for interaction and testing.
+
+The system supports:
+- A custom shell for command execution  
+- File creation, deletion, listing, and reading  
+- A text editor with multiple editing modes (overwrite, append, prepend)  
+- Keyboard input handling with Shift and Caps Lock support  
+- A blinking cursor interface for user feedback  
+- Built-in programs such as Snake and Pong  
+
+---
+
+## 🧠 What I Learned
+
+Building FidaOS gave me hands-on experience with core operating system concepts. Instead of learning them theoretically, I implemented them directly.
+
+Through this project, I gained a deeper understanding of:
+- How a kernel is structured and executed  
+- How hardware input (keyboard) is handled using scan codes  
+- Memory handling and string management in low-level C  
+- Designing a simple file system from scratch  
+- Building a command-line interface and parsing user input  
+- Debugging multi-file C projects and resolving linking issues  
+
+---
+
+## 📂 Project Structure
+
+The project is organized into separate modules to keep the system clean and maintainable:
+
+- `kernel/` → Core system logic and command handling  
+- `drivers/` → Hardware interaction (keyboard, display)  
+- `programs/` → Built-in applications like Snake, Pong, and editor  
+- `include/` → Header files for shared structures and functions  
+- `fs.c` → File system implementation  
+- `boot.asm` → Bootloader code  
+- `linker.ld` → Memory layout configuration  
+- `grub/` → Boot configuration  
+
+---
+
+## 🖥️ Commands
+
+FidaOS provides a small but functional set of commands:
+
+- `help` → show available commands  
+- `clear` → clear the screen  
+- `ls` → list files and programs  
+- `touch <file>` → create a file  
+- `rm <file>` → delete a file  
+- `cat <file>` → view file contents  
+- `edit <file>` → overwrite file contents  
+- `append <file>` → add content to the end  
+- `prepend <file>` → add content to the beginning  
+- `run <program>` → execute a program  
+
+---
+
+## 🛠️ Tech Stack
+
+- C (low-level system programming)  
+- x86 Assembly  
+- GRUB bootloader  
+- QEMU (for running and testing the OS)  
+
+---
+
+## ▶️ Running the Project
+
+The OS can be built using GCC and NASM, then run using QEMU.
+
+Once built, it can be launched with:
+
+qemu-system-i386 -cdrom os.iso
+
+---
+
+## 🎯 Purpose
+
+The purpose of FidaOS was not to build a production-ready system, but to gain a practical understanding of how operating systems work internally by building one from scratch.
 
 ---
 
