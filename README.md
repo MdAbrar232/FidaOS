@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6d40e11b-4c22-4878-87ae-6cadbd06518d" />
+
 # 🖥️ FidaOS
 
 FidaOS is a simple command-line operating system built from scratch using C and x86 Assembly.  
