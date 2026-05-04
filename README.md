@@ -4,6 +4,8 @@
 
 FidaOS is a simple command-line operating system built from scratch using C and x86 Assembly.  
 This project was developed to explore how operating systems work at a low level by implementing core components manually, without relying on existing OS frameworks.
+
+
 [![Watch FidaOS Demo](https://img.youtube.com/vi/irG-IZGzjAc/0.jpg)](https://www.youtube.com/watch?v=irG-IZGzjAc)
 
 ---
