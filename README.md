@@ -9,7 +9,7 @@ This project was developed to explore how operating systems work at a low level 
 
 ## 📸 Demo
 
-(A demo video will be added here)
+https://youtu.be/irG-IZGzjAc
 
 ---
 
