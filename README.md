@@ -35,17 +35,17 @@ The system supports:
 
 ---
 
-## 🧠 What I Learned
+## 🧠 Skills Demonstrated
 
-Building FidaOS gave me hands-on experience with core operating system concepts. Instead of learning them theoretically, I implemented them directly.
+Through this project, I developed hands-on experience with:
 
-Through this project, I gained a deeper understanding of:
-- How a kernel is structured and executed  
-- How hardware input (keyboard) is handled using scan codes  
-- Memory handling and string management in low-level C  
-- Designing a simple file system from scratch  
-- Building a command-line interface and parsing user input  
-- Debugging multi-file C projects and resolving linking issues  
+- Low-level programming in C without standard libraries  
+- Direct hardware interaction (keyboard input via I/O ports, VGA memory at 0xB8000)  
+- Operating system design (kernel, drivers, file system, shell)  
+- Memory management and debugging (resolving pointer-related issues)  
+- Building a command-line interface with command parsing  
+- Designing modular systems with clear separation between kernel, drivers, and programs  
+- Implementing real-time input handling and game loops    
 
 ---
 
