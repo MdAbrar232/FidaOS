@@ -108,4 +108,5 @@ The purpose of FidaOS was to obtain a practical understanding of how operating s
 
 ## 👨‍💻 Author
 
-Md Abrar
+Md Abrar Mahbub Fida
+North South University (NSU), Dhaka, Bangladesh
