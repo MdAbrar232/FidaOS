@@ -7,10 +7,10 @@ This project was developed to explore how operating systems work at a low level 
 
 --- 
 
-## Click the image below to watch the demo
+## 📸 Click the image below to watch the demo
 
 [![Watch FidaOS Demo](https://img.youtube.com/vi/irG-IZGzjAc/0.jpg)](https://www.youtube.com/watch?v=irG-IZGzjAc)
-## Highlights
+## 📷 Demo Highlights
 
 - All screen output is done by directly writing to VGA memory at address 0xB8000, without using any libraries.
 - The blinking cursor is implemented manually using a software timing loop.
