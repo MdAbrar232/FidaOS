@@ -10,6 +10,19 @@ This project was developed to explore how operating systems work at a low level 
 ## Click the image below to watch the demo
 
 [![Watch FidaOS Demo](https://img.youtube.com/vi/irG-IZGzjAc/0.jpg)](https://www.youtube.com/watch?v=irG-IZGzjAc)
+## Highlights
+
+- All screen output is done by directly writing to VGA memory at address 0xB8000, without using any libraries.
+- The blinking cursor is implemented manually using a software timing loop.
+- Implemented a command-line shell that parses input using string comparison.
+- The file system is an in-memory structure where each file stores its name, data, and type.
+- Can dynamically create files using commands like touch, and list them using ls.
+- Text editor supports multi-line input, backspace across lines, and multiple modes like overwrite, append, and prepend.
+- Uses a buffer to store user input and then writes it to the file system.
+- Supports running independent programs.
+- Snake game runs in a continuous loop, processes real-time input, and renders directly to VGA memory.
+- Pong has improved input using a state-based system for smoother control.
+- Programs are executed using function pointers, which allows dynamic program execution from the file system.
 
 ---
 
